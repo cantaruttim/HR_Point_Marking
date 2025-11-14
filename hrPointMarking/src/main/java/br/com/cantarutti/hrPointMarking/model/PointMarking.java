@@ -1,10 +1,13 @@
 package br.com.cantarutti.hrPointMarking.model;
 
+import br.com.cantarutti.hrPointMarking.model.enums.Marker;
+
 public class PointMarking {
 
     public Integer CdPointer;
     public Employee Register;
     public String DateMarker;
+    public Marker PointMarker;
 
     public Integer getCdPointer() {
         return this.CdPointer;
@@ -30,6 +33,12 @@ public class PointMarking {
         this.DateMarker = DateMarker;
     }
 
-    
+    public Marker getPointMarker() {
+        return PointMarker;
+    }
+
+    public void setPointMarker(Marker PointMarker) {
+        this.PointMarker = PointMarker;
+    }
     
 }
