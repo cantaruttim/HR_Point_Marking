@@ -1,4 +1,4 @@
-package br.com.cantarutti.hrPointMarking.model.enum;
+package br.com.cantarutti.hrPointMarking.model.enums;
 
 public enum Marker {
     
