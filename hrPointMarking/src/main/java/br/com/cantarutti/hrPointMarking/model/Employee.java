@@ -2,13 +2,13 @@ package br.com.cantarutti.hrPointMarking.model;
 
 public class Employee {
     
-    private String Registration;
-    private String Name;
-    private String AdmissionDate;
-    private String Departament;
-    private String Level;
-    private Integer LevelRole;
-    private String Role;
+    public String Registration;
+    public String Name;
+    public String AdmissionDate;
+    public String Departament;
+    public String Level;
+    public Integer LevelRole;
+    public String Role;
 
     public Employee() {};
 
