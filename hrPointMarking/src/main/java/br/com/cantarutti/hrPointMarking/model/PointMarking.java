@@ -4,10 +4,10 @@ import br.com.cantarutti.hrPointMarking.model.enums.Marker;
 
 public class PointMarking {
 
-    public Integer CdPointer;
-    public Employee Register;
-    public String DateMarker;
-    public Marker PointMarker;
+    private Integer CdPointer;
+    private Employee Register;
+    private String DateMarker;
+    private Marker PointMarker;
 
     public Integer getCdPointer() {
         return this.CdPointer;
